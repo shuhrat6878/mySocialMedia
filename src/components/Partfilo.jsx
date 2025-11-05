@@ -10,7 +10,7 @@ const Portfolio = () => {
     {
       name: "Telegram",
       img: "https://cdn-icons-png.flaticon.com/512/2111/2111646.png",
-      link: "https://t.me/admiral6878",
+      link: "https://t.me/mp3_admiral_sh",
     },
     {
       name: "Facebook",
@@ -26,7 +26,7 @@ const Portfolio = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-indigo-100 via-white to-purple-100">
-      <h1 className="text-4xl font-bold mb-10 text-gray-800">My Social Media</h1>
+      <h1 className="text-4xl font-bold mb-10 text-gray-700">My Social Media</h1>
 
       <div className="flex flex-wrap justify-center gap-8">
         {socialLinks.map((item, index) => (
